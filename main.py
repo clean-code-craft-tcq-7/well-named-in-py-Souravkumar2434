@@ -12,7 +12,6 @@ def print_reference_module():
     for i in range(1, len(MAJOR_COLORS) + 1):
         for j in range(len(MINOR_COLORS)):
             print("Pair_no:{}, Major_color {}, Minor_color {}".format(count, MAJOR_COLORS[i - 1], MINOR_COLORS[j]))
-            print(count)
             count = count + 1
 
 
