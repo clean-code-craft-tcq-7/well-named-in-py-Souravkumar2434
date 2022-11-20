@@ -9,9 +9,9 @@ def color_pair_to_string(major_color, minor_color):
 
 
 if __name__ == '__main__':
-  test_number_to_pair(4, 'White', 'Brown')
-  test_number_to_pair(5, 'White', 'Slate')
-  test_pair_to_number('Black', 'Orange', 12)
-  test_pair_to_number('Violet', 'Slate', 25)
-  test_pair_to_number('Red', 'Orange', 7)
+  check_color_from_pair_number.test_number_to_pair(4, 'White', 'Brown')
+  check_color_from_pair_number.test_number_to_pair(5, 'White', 'Slate')
+  check_pair_number_from_colors.test_pair_to_number('Black', 'Orange', 12)
+  check_pair_number_from_colors.test_pair_to_number('Violet', 'Slate', 25)
+  check_pair_number_from_colors.test_pair_to_number('Red', 'Orange', 7)
   print('Done :)')
