@@ -11,7 +11,7 @@ def print_reference_module():
     count = 1
     for i in MAJOR_COLORS:
         for j in MINOR_COLORS:
-            print("Pair_no: {}, Major_color: {}, Minor_color: {}".format(count, i, j)
+            print("Pair_no: {}, Major_color: {}, Minor_color: {}".format(count, i, j))
             count = count + 1
 
 
