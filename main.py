@@ -9,6 +9,7 @@ def color_pair_to_string(major_color, minor_color):
 
 def print_reference_module():
     count = 1
+    print("Refrence Module:-")
     for i in MAJOR_COLORS:
         for j in MINOR_COLORS:
             print("Pair_no: {}, Major_color: {}, Minor_color: {}".format(count, i, j))
