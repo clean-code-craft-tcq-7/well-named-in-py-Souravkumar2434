@@ -1,5 +1,6 @@
 import check_color_from_pair_number
 import check_pair_number_from_colors
+from print_reference_manual import print_reference_module
 
 if __name__ == '__main__':
   check_color_from_pair_number.test_number_to_pair(4, 'White', 'Brown')
