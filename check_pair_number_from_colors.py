@@ -1,4 +1,4 @@
-import print_reference_module as pm
+import print_reference_manual as pm
 
 def get_pair_number_from_color(major_color, minor_color):
   try:
