@@ -1,4 +1,4 @@
-import print_reference_module as pm
+import print_reference_manual as pm
 def get_color_from_pair_number(pair_number):
     zero_based_pair_number = pair_number - 1
     major_index = zero_based_pair_number // len(pm.MINOR_COLORS)
